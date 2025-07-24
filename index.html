@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SQL Master - Kullanım Kılavuzu</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+  <div class="container py-5">
+    <h1 class="text-center mb-4">SQL MASTER</h1>
+    <h4 class="text-center mb-5">Kullanım Kılavuzu</h4>
+
+    <h5>İÇİNDEKİLER</h5>
+    <ul>
+      <li>1. Genel Bakış</li>
+      <li>2. SQL Master Paneline Jira’dan Erişim</li>
+      <li>3. Adım Adım Kullanım</li>
+      <li>4. Filtreleme Alanları</li>
+      <li>5. Fonksiyonlar</li>
+      <li>6. Sorgu Oluşturma</li>
+      <li>7. Teknik Notlar</li>
+      <li>8. Sık Karşılaşılan Kullanım Senaryoları</li>
+      <li>9. Sürüm Notları</li>
+    </ul>
+
+    <hr>
+    <h5>1. Genel Bakış</h5>
+    <p>Form, web tabanlı bir arayüz üzerinden dinamik SQL sorguları oluşturmanıza imkân tanır. Bootstrap ile şık, kullanıcı dostu bir tasarıma sahiptir ve farklı ürünlere göre özelleşir.</p>
+
+    <h5>2. SQL Master Paneline Jira’dan Erişim</h5>
+    <ol>
+      <li>Dashboards > Manage Dashboards yolunu izleyin.</li>
+      <li>'Search' sekmesine geçin, 'SQL Master' yazarak arama yapın.</li>
+      <li>Çıkan sonucu favorilere eklemek için yıldız ikonuna tıklayın.</li>
+    </ol>
+
+    <h5>3. Adım Adım Kullanım</h5>
+    <ul>
+      <li><strong>Ortam Seçimi (Environment):</strong> Prod ve Test seçenekleri bulunur.</li>
+      <li><strong>Ürün Seçimi (Product):</strong> Seçilen ürün, formu dinamik olarak değiştirir.</li>
+      <li><strong>Sorgu Tipi (Query For):</strong> Transaction aktif, diğerleri geliştirme aşamasında.</li>
+      <li><strong>Tarih Aralığı:</strong> Zorunludur ve saatli seçim desteklenir.</li>
+    </ul>
+
+    <h5>4. Filtreleme Alanları</h5>
+    <ul>
+      <li><strong>Koşullu Kolonlar:</strong> Alan seçimine göre input alanları görünür.</li>
+      <li><strong>Çıktı Kolonları:</strong> SELECT kısmında yer alacak alanlar seçilir.</li>
+    </ul>
+
+    <h5>5. Fonksiyonlar</h5>
+    <ul>
+      <li><strong>Count:</strong> Gruplu işlem sayısı verir.</li>
+      <li><strong>Compare:</strong> Tarih aralığı karşılaştırması yapar.</li>
+      <li><strong>Average:</strong> Sayısal kolonlar üzerinden ortalama hesaplar.</li>
+      <li><strong>Order By:</strong> Artan/azalan sıralama desteği.</li>
+    </ul>
+
+    <h5>6. Sorgu Oluşturma</h5>
+    <p>“Generate Query” butonuyla sorgu oluşturulur. Sonuç kutusundan panoya kopyalanabilir.</p>
+
+    <h5>7. Teknik Notlar</h5>
+    <ul>
+      <li>UTC+3 saat dilimi otomatik olarak uygulanır.</li>
+      <li>Tarih zorunlu alan olup kontrol sağlanır.</li>
+    </ul>
+
+    <h5>8. Sık Karşılaşılan Kullanım Senaryoları</h5>
+    <ul>
+      <li>Bank ID ile filtreleme</li>
+      <li>Günlük işlem sayısı</li>
+      <li>2 tarih aralığı karşılaştırması</li>
+      <li>Yalnızca başarılı işlemler</li>
+      <li>Belirli hata kodları</li>
+      <li>Taksitli işlemleri filtreleme</li>
+    </ul>
+
+    <h5>9. Sürüm Notları</h5>
+    <p>Sürüm 1.1 - Haziran 2025 <br> İçindekiler ve Jira erişim adımları eklendi.</p>
+
+    <hr>
+    <footer class="text-center mt-5">
+      <small>&copy; 2025 Payten | <a href="https://www.payten.com" target="_blank">www.payten.com</a></small>
+    </footer>
+  </div>
+</body>
+</html>
